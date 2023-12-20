@@ -1,3 +1,6 @@
+    Spellbound, an client side advanced grammar and spell checker for Obsidian
+    Copyright (C) 2023  Kwame Porter Robinson
+
                     GNU AFFERO GENERAL PUBLIC LICENSE
                        Version 3, 19 November 2007
 
