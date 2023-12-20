@@ -8,6 +8,30 @@ export const logs: string[] = [];
 
 let lastStatus: 'ok' | 'request-failed' | 'request-not-ok' | 'json-parse-error' = 'ok';
 
+
+/* 
+
+Chat from 12/20 6:15pm on replacing with a client side version
+
+// api.ts
+import { GrammarCheckerAdapter } from './GrammarCheckerAdapter';
+
+export async function getDetectionResult(
+  text: string,
+  getSettings: () => LanguageToolPluginSettings,
+): Promise<LanguageToolApi> {
+  const adapter = new GrammarCheckerAdapter();
+  return adapter.getDetectionResult(text);
+}
+
+Then, modify api.ts to use the adapter:
+
+
+In this way, you can replace the server-side LanguageTool API with a client-side grammar checking library without changing the rest of your application. The GrammarCheckerAdapter class can be modified to handle any differences between the library's interface and the LanguageToolApi interface.
+
+Please note that this is a simplified example. The actual implementation may require more complex error handling and data transformation, depending on the specifics of the grammar checking library and your application's needs.
+
+*/
 export async function getDetectionResult(
 	text: string,
 	getSettings: () => LanguageToolPluginSettings,

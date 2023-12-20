@@ -1,7 +1,7 @@
 {
-    "name": "obsidian-languagetool-plugin",
+    "name": "obsidian-spellbound-plugin",
     "version": "0.9.7",
-    "description": "This is a plugin for obsidian.md that integrates languagetool",
+    "description": "This is a plugin for obsidian.md that integrates client side grammar and spell checking, Spellbound",
     "main": "main.js",
     "scripts": {
         "build:dev": "rollup --config rollup.config.js -w",
@@ -13,7 +13,7 @@
         "prettier": "prettier --write --use-tabs --single-quote --print-width 120 --trailing-comma all --end-of-line lf"
     },
     "keywords": [],
-    "author": "Clemens Ertle",
+    "author": "Kwame Porter Robinson",
     "contributors": [
         {
             "name": "Clemens Ertle",
@@ -22,10 +22,14 @@
         {
             "name": "Matthew Meyers",
             "url": "https://github.com/mgmeyers"
+        },
+        {
+            "name": "Kwame Porter Robinson",
+            "url": "https://github.com/robinsonkwame"
         }
     ],
     "repository": {
-        "url": "https://github.com/Clemens-E/obsidian-languagetool-plugin"
+        "url": "https://github.com/robinsonkwame/obsidian-spellbound-plugin"
     },
     "devDependencies": {
         "@codemirror/language": "https://github.com/lishid/cm-language",
